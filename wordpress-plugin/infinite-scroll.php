@@ -100,10 +100,10 @@ class Infinite_Scroll {
 				'finishedMsg'     => '<em>' . __( 'No additional posts.', 'infinite-scroll' ) . '</em>',
 				'img'             => plugins_url( 'img/ajax-loader.gif', __FILE__ )
 			),
-			'nextSelector'    => '#nav-below a:first',
-			'navSelector'     => '#nav-below',
+			'nextSelector'    => '.navigation a:first',
+			'navSelector'     => '.navigation',
 			'itemSelector'    => '.post',
-			'contentSelector' => '#content',
+			'contentSelector' => '#main',
 			'debug'           => WP_DEBUG,
 			'behavior'		    => ''
 		);
